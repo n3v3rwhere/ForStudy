@@ -47,32 +47,32 @@ API Key loaded: True
 
 # Project structure
 
-my-first-repo/
-│
-├── .env                # Local secrets - not tracked by Git
-├── .env.example        # Example environment variables
-├── .gitignore          # Files excluded from Git
-├── main.py             # Main Python application
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
-└── .venv/              # Virtual environment - not tracked by Git
+- my-first-repo/
+
+- .env                # Local secrets - not tracked by Git
+- .env.example        # Example environment variables
+- .gitignore          # Files excluded from Git
+- main.py             # Main Python application 
+- requirements.txt    # Python dependencies
+- README.md           # Project documentation
+- .venv/              # Virtual environment - not tracked by Git
 
 ## Security
 Secrets are stored only in .env.
 
 The repository ignores:
-.env
-.venv/
-__pycache__/
-*.pyc
+- .env
+- .venv/
+- __pycache__/
+- *.pyc
 
 The .env.example file contains the required variable names without exposing real secret values.
 
 # Git Workflow
 
 This project uses the main branch as the primary branch.
-Typical workflow:
-git status
-git add
-git commit -m "Describe your changes"
-git push
+- Typical workflow:
+- git status
+- git add
+- git commit -m "Describe your changes"
+- git push
