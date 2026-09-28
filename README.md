@@ -86,3 +86,10 @@ The file was then removed from Git tracking with:
  ''' bash 
  - git rm --cached .env
 The .env file was added to .gitignore so it will not be tracked again.
+
+## Important
+Removing a file from the current version does not remove it from Git history.
+The dummy value used in this exersice is not real secret.
+If the real API key, password or other secret is ever commited it should be considered exposed. 
+The safe solution is to immidiately revoke or rotate the secret.
+Removing the file from Git is not enough.
