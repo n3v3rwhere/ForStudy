@@ -76,3 +76,13 @@ This project uses the main branch as the primary branch.
 - git add
 - git commit -m "Describe your changes"
 - git push
+
+
+# Markdown
+## Security Practice
+As part of this learning project, a dummy '.env' file was intentionally commiited to Git.
+
+The file was then removed from Git tracking with:
+ ''' bash 
+ - git rm --cached .env
+The .env file was added to .gitignore so it will not be tracked again.
