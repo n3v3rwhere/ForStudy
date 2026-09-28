@@ -12,3 +12,4 @@ if not api_key:
 
 print(f"App name: {app_name}")
 print(f"API_KEY loaded: {bool(api_key)}")
+print("Project is set up correctly!")
